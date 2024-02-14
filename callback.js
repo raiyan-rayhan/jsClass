@@ -1,3 +1,18 @@
+// a simple callback function making
+
+function demo (input, callback, args){
+    console.log('hello ' + input);
+    callback();
+    console.log('the length of ' + '(' + args +') is:' + args.length );
+};
+
+demo('Mr Ryan', function(){
+    console.log('this is from callback function');
+},'this is another argument');
+
+
+
+// trying to make an another callback function
 
 const self = {
     name: 'rayhan',
@@ -34,13 +49,4 @@ display(another, function(){
 
 
 
-function demo (input, callback, args){
-    console.log('hello ' + input);
-    callback();
-    console.log('the length of ' + '(' + args +') is:' + args.length );
-};
-
-demo('Mr Ryan', function(){
-    console.log('this is from callback function');
-},'this is another argument');
 
