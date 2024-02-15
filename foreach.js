@@ -9,7 +9,7 @@ arr.forEach(function(number, position, full){
     console.log(number + ' (' + position + ') ' + full);
 });
 
-// in the forEach function above the callback function contains 3 parameter first one provide the value from the array, second parameter provide the index number of the value from the array, and the third parameter provide the full array.
+// in the forEach function above the callback function contains 3 parameter first one provide the value from the array, second parameter provide the index number of the value from the array, and the third parameter provide the full array..
 
 
 // below i'm trying to creat a function which resukts like forEach function
